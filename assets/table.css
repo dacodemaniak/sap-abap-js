@@ -1,0 +1,23 @@
+table.table {
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.table-border {
+}
+
+table.table thead {
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    border-bottom: 2px solid var(--secondary);
+}
+
+table.table thead tr th {
+    border-right: solid 1px var(--secondary);
+}
+
+table.table thead tr th:last-child {
+    border-right: none;
+}

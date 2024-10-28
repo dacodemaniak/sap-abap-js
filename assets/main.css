@@ -1,0 +1,13 @@
+@import './style.css';
+@import './variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&display=swap');
+@import './table.css';
+@import './button.css';
+@import './checkbox.css';
+@import './toolbar.css';
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1em;
+}

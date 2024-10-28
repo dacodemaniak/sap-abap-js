@@ -1,0 +1,27 @@
+button.btn {
+    border: none;
+    background-color: transparent;
+}
+
+button.btn.btn-round.btn-icon {
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: solid 1px var(--light);
+}
+
+button.btn.success {
+    background-color: var(--success);
+    color: var(--light);
+}
+
+button.btn.danger {
+    background-color: var(--danger);
+    color: var(--light);
+}
+
+button[disabled] {
+    color: var(--secondary);
+}
