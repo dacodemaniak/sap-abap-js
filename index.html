@@ -44,20 +44,22 @@
     </table>
 
     <template id="product-row">
-        <tr>
-            <td>
-                <label class="stylished-checkbox">
-                    <input type="checkbox" id="" role="select-one">
-                    <span class="checkmark"></span>
-                </label>
-            </td>
-            <td></td>
-            <td></td>
-            <td class="detail">
-                <div class="quantity"></div>
-                <i class="icon-play3"></i>
-            </td>
-        </tr>
+        {{#products}}
+            <tr>
+                <td>
+                    <label class="stylished-checkbox">
+                        <input type="checkbox" id="{{ref}}" role="select-one">
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+                <td>{{label}}</td>
+                <td></td>
+                <td class="detail">
+                    <div class="quantity"></div>
+                    <i class="icon-play3"></i>
+                </td>
+            </tr>
+        {{/products}}
     </template>
 
     <template id="product-detail-table">
@@ -78,17 +80,17 @@
                     </th>
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
+                {{#movements}}
+                    <tr>
+                        <td>{{date}}</td>
+                        <td>{{movement}}</td>
+                        <td>{{quantity}}</td>
+                        <td>{{price}}</td>
+                    </tr>
+                {{/movements}}
+            </tbody>
         </table>        
-    </template>
-
-    <template id="product-detail-row">
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
     </template>
 </body>
 </html>
