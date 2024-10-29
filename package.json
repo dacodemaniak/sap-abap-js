@@ -1,0 +1,31 @@
+{
+  "name": "js-sap-abap",
+  "version": "1.0.0",
+  "description": "Simple JS DOM and Event app",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacodemaniak/sap-abap-js.git"
+  },
+  "keywords": [
+    "JS",
+    "SAP-ABAP"
+  ],
+  "author": "Aélion <jean-luc.aubert@aelion.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacodemaniak/sap-abap-js/issues"
+  },
+  "homepage": "https://github.com/dacodemaniak/sap-abap-js#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jsdom": "^25.0.1"
+  }
+}

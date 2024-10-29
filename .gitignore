@@ -1,4 +1,10 @@
 # MacOS Thumbs
 .DS_Store
 
+# Node modules
+node_modules
+
+# Test coverage
+coverage
+
 
